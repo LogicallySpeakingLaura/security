@@ -7,6 +7,7 @@ package immutability;
  *
  * @author LogicallySpeakingLaura
  * @version 2020.10.10
+ * @see immutability.Boot for understanding of class construction
  */
 public final class Boot
 {
