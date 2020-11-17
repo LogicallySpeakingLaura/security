@@ -12,6 +12,7 @@ import java.io.*;
  */
 public class SanitizeData
 {
+
     private void purgeExceptionData()
     {
         for ( File file : new File( "<DIRECTPATH>" ).listFiles() )
@@ -27,4 +28,5 @@ public class SanitizeData
             }
         }
     }
+
 }
