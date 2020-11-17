@@ -1,0 +1,20 @@
+/* This is a general example of what a policy for a SecurityManager could look like. Note the assignment of
+ * different levels of access for different levels of application. */
+
+/* Grant access to any sealed jar files. This is read only as we do not want to be able to edit a sealed jar. */
+grant codeBase "/<PATH>/<SEALED_NAME>.jar"
+{ 
+	permission java.util.PropertyPermission "java.home", "read";
+};
+
+/* Grant read and write access to application directory. */
+grant codeBase "/root/ManageComputers/" 
+{ 
+	permission java.io.FilePermission "/<PATH>/<DIRECTORY>", "read,write";
+};
+
+/* Grant all permissions to files in application directory. */
+grant codeBase "/root/ManageComputers/" 
+{ 
+	permission java.io.FilePermission "/<PATH>/<DIRECTORY>/*", "read,write,delete";
+};
