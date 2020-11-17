@@ -8,13 +8,13 @@ grant codeBase "/<PATH>/<SEALED_NAME>.jar"
 };
 
 /* Grant read and write access to application directory. */
-grant codeBase "/root/ManageComputers/" 
+grant codeBase "/<PATH>/AppDriver/"
 { 
 	permission java.io.FilePermission "/<PATH>/<DIRECTORY>", "read,write";
 };
 
 /* Grant all permissions to files in application directory. */
-grant codeBase "/root/ManageComputers/" 
+grant codeBase "/<PATH>/AppDriver/"
 { 
 	permission java.io.FilePermission "/<PATH>/<DIRECTORY>/*", "read,write,delete";
 };

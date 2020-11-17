@@ -29,12 +29,12 @@ public class AppDriver
     }
 
     /**
-     * This method demonstartes checking policy permissions against a specific function. In development,
+     * This method demonstrates checking policy permissions against a specific function. In development,
      * this could be done anywhere however, is shown here for demonstrative purposes.
      */
     private static void checkPolicyPermissions()
     {
-        if ( System.getProperty( "String for direct patch of app location" ).equals( "read,write,delete" ) ) //can check for any combo of permissions
+        if ( System.getProperty( "/<DIRECT_PATH>" ).equals( "read,write,delete" ) ) //can check for any combo of permissions
             //code to do requested functionality
         else
             //show error message and take appropriate action
