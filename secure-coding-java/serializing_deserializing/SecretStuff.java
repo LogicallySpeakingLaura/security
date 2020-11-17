@@ -1,4 +1,4 @@
-package serializing;
+package serializing_deserializing;
 
 import java.io.IOException;
 import java.io.ObjectInputStream;
