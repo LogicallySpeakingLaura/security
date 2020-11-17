@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c98beecf-beeb-43b9-981e-a08ad174a92c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/secure-coding-java/defensive_copying/MutableObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/secure-coding-java/defensive_copying/DeepCopy.java" beforeDir="false" afterPath="$PROJECT_DIR$/secure-coding-java/defensive_copying/DeepCopy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/secure-coding-java/defensive_copying/MutableObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/secure-coding-java/defensive_copying/MutableObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/secure-coding-java/defensive_copying/ShallowCopy.java" beforeDir="false" afterPath="$PROJECT_DIR$/secure-coding-java/defensive_copying/ShallowCopy.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +59,7 @@
       <updated>1605078421853</updated>
       <workItem from="1605078424253" duration="31000" />
       <workItem from="1605413079307" duration="90000" />
-      <workItem from="1605575428951" duration="1860000" />
+      <workItem from="1605575428951" duration="7142000" />
     </task>
     <servers />
   </component>
